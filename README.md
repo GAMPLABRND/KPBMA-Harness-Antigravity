@@ -34,11 +34,9 @@ URS(KPBMA-EDU-001-URS 양식의 Section 2, 6, 7.1)가 정하고, 하네스는 �
 | `public/kpbma-ci.png`, `public/kpbma-ci-white.png`, `app/icon.png` | 한국제약바이오협회 CI(파랑, 흰색)와 탭 아이콘 |
 | `scripts/convert-urs.mjs` | URS .docx → `docs/urs/*.md` 변환기 (표 보존, 조항 ID 카운트) |
 | `scripts/new-project.mjs` | 템플릿을 새 프로젝트 폴더로 복제 (`npm run new -- <이름>`) |
-| `docs/GUIDE_실습흐름_URS에서VSR까지.md` | 실습 흐름 지침과 지시 문장 |
-| `docs/SETUP_강사용.md`, `docs/RUNBOOK_당일운영.md` | 조별 준비 절차, 당일 운영 절차와 증상별 처치 |
 | `docs/urs/` | 조별 URS를 넣는 곳 (.docx 또는 변환된 .md) |
 
-## 빠른 시작 (조별 준비, 자세한 절차는 docs/SETUP_강사용.md)
+## 빠른 시작
 
 ```bash
 npm install
@@ -50,7 +48,7 @@ npm run dev
 
 새 프로젝트를 만들 때(교육 후 자기 환경): 템플릿 폴더에서 `npm run new -- my-project` → `cd ../my-project` → `npm install`.
 
-## 실습 흐름 (요약, 자세한 절차는 docs/GUIDE_실습흐름_URS에서VSR까지.md)
+## 실습 흐름
 
 1. URS `.docx`를 `docs/urs/`에 넣는다.
 2. Codex(전체 자동 모드)에 입력: **"하네스 절차대로 URS MVP 빌드를 시작해."** 턴이 중간에 끝나면 `계속`을 입력한다.

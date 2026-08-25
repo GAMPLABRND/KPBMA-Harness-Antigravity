@@ -59,7 +59,6 @@ export default async function LoginPage() {
             <br />
             로컬은 <code>.env.example</code>을 복사해 <code>.env.local</code>을 만들고 값을 채운 뒤 서버를
             재시작합니다. Vercel은 프로젝트 Settings의 Environment Variables에 3종을 등록하고 재배포합니다.
-            (docs/SETUP_강사용.md ⑤, ⑥ 단계)
           </div>
         ) : null}
 
